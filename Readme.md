@@ -550,8 +550,9 @@ This project is for educational purposes as part of the TOVADEL Academy Senior D
 
 ## 🤝 Connect
 
-**Olusola** — Senior DevOps Engineer | Founder, TOVADEL Academy
+**Olusola** — Senior DevOps Engineer | Founder, TOVADEL Academy  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/osenat-alonge-84379124b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnPYNF8gfStqAR%2BzzmyOavQ%3D%3D
-))
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/etaoko333)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/osenat-alonge-84379124b/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black)](https://github.com/etaoko333)
+[![Project Repo](https://img.shields.io/badge/Project-Book%20Review%20App-green)](https://github.com/etaoko333/Book-Review-Project)
+
