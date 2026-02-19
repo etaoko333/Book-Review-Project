@@ -8,35 +8,13 @@ A production-grade, highly available, and secure three-tier architecture deploym
 
 ---
 
+<img width="1920" height="1080" alt="2026-02-19 (1)" src="https://github.com/user-attachments/assets/3d57fb55-2162-4d0c-afe7-0d5138392d1a" />
+
 ## 🏗️ Architecture
+![Uploading Architecture Diagram Project.png…]()
 
 ```
-                         INTERNET
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │   Public ALB (:80)   │  ← Internet-facing
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │   Web EC2 (Nginx)    │  ← Next.js + Nginx
-                 │   Public Subnet      │     :80 → localhost:3000
-                 │                      │     /api/ → Internal ALB
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │  Internal ALB (:3001)│  ← VPC-internal only
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │   App EC2 (Express)  │  ← Node.js/Express API
-                 │   Private Subnet     │     Port 3001
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │   RDS MySQL          │  ← Multi-AZ + Read Replica
-                 │   Private Subnet     │     Port 3306
-                 └─────────────────────┘
+                      
 ```
 
 ---
@@ -53,6 +31,9 @@ A production-grade, highly available, and secure three-tier architecture deploym
 | **Auth** | JWT (JSON Web Tokens) |
 
 ---
+
+<img width="1920" height="1080" alt="2026-02-19 (1)" src="https://github.com/user-attachments/assets/2faa82de-0fa7-4123-a148-d0b5cc170a75" />
+
 
 ## 📁 Project Structure
 
@@ -84,6 +65,9 @@ bookreview-terraform/
 | DB | db-private-b | 10.0.22.0/24 | us-east-1b | Private |
 
 ---
+
+<img width="1920" height="1080" alt="2026-02-19 (3)" src="https://github.com/user-attachments/assets/cc8f73fb-dc0d-45ad-a920-3dff7d8076fa" />
+
 
 ## 🔒 Security Group Chain
 
