@@ -3,7 +3,7 @@
 
 A production-grade, highly available, and secure three-tier architecture deployment of the [Book Review App](https://github.com/pravinmishraaws/book-review-app) on AWS using Terraform.
 
-**TOVADEL Academy | Senior DevOps Engineer Program**
+**A DevOps Engineer | Cloud Architect | Founder, TOVADEL Academy**
 **Author:** Olusola (etaoko333)
 
 ---
