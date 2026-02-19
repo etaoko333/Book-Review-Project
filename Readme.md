@@ -11,7 +11,8 @@ A production-grade, highly available, and secure three-tier architecture deploym
 <img width="1920" height="1080" alt="2026-02-19 (1)" src="https://github.com/user-attachments/assets/3d57fb55-2162-4d0c-afe7-0d5138392d1a" />
 
 ## 🏗️ Architecture
-![Uploading Architecture Diagram Project.png…]()
+<img width="720" height="480" alt="image" src="https://github.com/user-attachments/assets/93fd7888-e193-4af7-916e-573fa0760192" />
+
 
 ```
                       
